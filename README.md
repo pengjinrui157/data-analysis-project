@@ -13,9 +13,9 @@
 
 | 文件 | 说明 |
 |------|------|
-| `data_cleaning.py` | 清洗原始Excel数据：去重、过滤负毛利/负销售额、补充缺失分类 |
+| `data_cleaning.py` | 清洗原始Excel数据：去重、过滤负值、补充缺失分类 |
 | `cleaned_sales_data.csv` | 清洗后数据集（35,027条有效记录） |
-| `analysis.sql` | SQL查询脚本：总KPI、区域毛利排名、Top20商品、帕累托分析 |
+| `analysis.sql` | SQL查询脚本：总KPI、商品类别毛利排名、月度销售趋势、帕累托分析 |
 | `business_analysis.py` | Python分析：生成月度销售趋势图、帕累托图、省份毛利Top10图 |
 | `sales_dashboard.pbix` | Power BI 交互式看板 |
 | `销售数据分析与业务洞察.pdf` | 完整分析报告（含数据清洗、KPI、趋势、区域、商品结构及策略建议） |
